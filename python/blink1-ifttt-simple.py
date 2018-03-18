@@ -96,6 +96,6 @@ while True:
                     os.popen( cmd )
                     #subprocess.call(['./'+e['name']+'.sh'])
 
-    last_time = calendar.timegm(time.gmtime())
+    last_time = int(e['date'])
     time.sleep(sleep_time)
   
